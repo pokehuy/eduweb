@@ -1,0 +1,59 @@
+{
+  "name": "EduLearn",
+  "tagline": "Unlock Your Potential Through Education",
+  "description": "EduLearn is a premier online education platform offering expert-led courses in technology, business, design, and more. Start learning today and transform your career.",
+  "url": "https://edulearn.example.com",
+  "logo": "/logo.png",
+  "email": "hello@edulearn.example.com",
+  "phone": "+1 (555) 123-4567",
+  "address": "123 Learning Lane, San Francisco, CA 94105",
+  "social": {
+    "twitter": "https://twitter.com/edulearn",
+    "linkedin": "https://linkedin.com/company/edulearn",
+    "youtube": "https://youtube.com/@edulearn",
+    "facebook": "https://facebook.com/edulearn"
+  },
+  "hero": {
+    "headline": "Learn Without Limits",
+    "subheadline": "Access 500+ expert-led courses in tech, business, design & more. Join 50,000+ learners transforming their careers.",
+    "ctaPrimary": "Explore Courses",
+    "ctaSecondary": "Watch Demo",
+    "image": "/hero-image.jpg"
+  },
+  "stats": [
+    { "label": "Active Students", "value": "50,000+" },
+    { "label": "Expert Instructors", "value": "200+" },
+    { "label": "Courses Available", "value": "500+" },
+    { "label": "Completion Rate", "value": "94%" }
+  ],
+  "features": [
+    {
+      "icon": "video",
+      "title": "HD Video Lessons",
+      "description": "Crystal-clear video content from world-class instructors at your own pace."
+    },
+    {
+      "icon": "certificate",
+      "title": "Industry Certificates",
+      "description": "Earn recognized certificates that boost your resume and career prospects."
+    },
+    {
+      "icon": "community",
+      "title": "Vibrant Community",
+      "description": "Connect with peers and mentors in a collaborative learning environment."
+    },
+    {
+      "icon": "lifetime",
+      "title": "Lifetime Access",
+      "description": "Buy once, learn forever. All courses come with lifetime access and updates."
+    }
+  ],
+  "seo": {
+    "defaultTitle": "EduLearn — Online Education Platform",
+    "titleTemplate": "%s | EduLearn",
+    "defaultDescription": "EduLearn offers 500+ expert-led online courses in technology, business, design and more. Start learning today with lifetime access.",
+    "keywords": ["online education", "online courses", "e-learning", "skills development", "professional courses"],
+    "ogImage": "/og-image.jpg",
+    "twitterHandle": "@edulearn"
+  }
+}
