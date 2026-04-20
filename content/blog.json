@@ -1,0 +1,53 @@
+[
+  {
+    "id": "learn-to-code-2024",
+    "slug": "learn-to-code-2024",
+    "title": "How to Learn to Code in 2024: The Complete Roadmap",
+    "excerpt": "Whether you're a complete beginner or looking to level up, this comprehensive guide covers everything you need to start your coding journey in 2024.",
+    "content": "Learning to code has never been more accessible or more valuable. With the tech industry continuing to grow and remote work becoming the norm, coding skills open doors to exciting career opportunities worldwide.\n\n## Why Learn to Code?\n\nCoding is the language of the modern world. From web applications to mobile apps, from data analysis to artificial intelligence, code powers virtually everything we interact with daily. Learning to code gives you the power to create, automate, and innovate.\n\n## Choosing Your First Language\n\nFor beginners, we recommend starting with Python or JavaScript. Python is known for its clean, readable syntax and is widely used in data science, automation, and web development. JavaScript is the language of the web and runs in every browser.\n\n## Setting Up Your Learning Path\n\nHere's a structured roadmap for beginners:\n\n1. **Start with the basics** - Learn variables, data types, functions, and control flow\n2. **Build projects** - Apply what you learn with real projects\n3. **Learn a framework** - React for JavaScript, Django for Python\n4. **Practice daily** - Consistency beats intensity\n5. **Join a community** - Learn with others\n\n## Resources and Tools\n\nTake advantage of free and paid resources. Our courses at EduLearn provide structured, project-based learning with mentor support. Combine courses with practice on platforms like LeetCode and GitHub.\n\n## The Key to Success\n\nThe most successful learners are consistent, curious, and persistent. Set aside dedicated learning time each day, build projects you care about, and don't be afraid to ask for help.",
+    "category": "Learning Tips",
+    "author": "Sarah Johnson",
+    "authorImage": "/instructors/sarah.jpg",
+    "thumbnail": "/blog/learn-to-code.jpg",
+    "tags": ["Coding", "Beginners", "Career", "Programming"],
+    "readTime": "8 min read",
+    "published": true,
+    "featured": true,
+    "createdAt": "2024-03-15",
+    "updatedAt": "2024-03-15"
+  },
+  {
+    "id": "ai-tools-for-students",
+    "slug": "ai-tools-for-students",
+    "title": "10 AI Tools Every Student Should Know in 2024",
+    "excerpt": "Artificial intelligence is transforming how we learn. Discover the top AI tools that can supercharge your studies, boost productivity, and help you learn faster.",
+    "content": "Artificial intelligence is no longer science fiction — it's a practical toolkit that smart students are using right now to learn faster, study smarter, and achieve more.\n\n## Why AI Tools Matter for Students\n\nAI tools can personalize your learning experience, provide instant feedback, help you overcome creative blocks, and automate repetitive tasks — giving you more time to focus on deep understanding.\n\n## Top 10 AI Tools for Students\n\n### 1. ChatGPT\nThe most versatile AI assistant for explaining concepts, debugging code, brainstorming ideas, and practicing language skills.\n\n### 2. Grammarly\nAI-powered writing assistant that improves grammar, clarity, tone, and style in real-time.\n\n### 3. Notion AI\nAn AI assistant built into Notion that helps summarize notes, generate ideas, and organize information.\n\n### 4. Anki with AI plugins\nSpaced repetition flashcard software enhanced with AI-generated flashcards for any topic.\n\n### 5. Wolfram Alpha\nMathematical and scientific computational engine that solves complex problems step-by-step.\n\n### 6. Otter.ai\nAI meeting and lecture transcription tool that creates searchable notes automatically.\n\n### 7. Consensus\nAI-powered academic search engine that extracts findings from scientific papers.\n\n### 8. Perplexity AI\nAI-powered search with cited sources — great for research.\n\n### 9. GitHub Copilot\nAI code completion tool for programming students.\n\n### 10. Quizlet AI\nAI-enhanced flashcard and quiz platform for any subject.\n\n## Using AI Ethically\n\nWhile AI tools are powerful, use them to enhance your understanding, not replace it. Always verify AI outputs and use them as a starting point, not a final answer.",
+    "category": "Technology",
+    "author": "Dr. Michael Chen",
+    "authorImage": "/instructors/michael.jpg",
+    "thumbnail": "/blog/ai-tools.jpg",
+    "tags": ["AI", "Productivity", "Tools", "Students"],
+    "readTime": "6 min read",
+    "published": true,
+    "featured": true,
+    "createdAt": "2024-03-10",
+    "updatedAt": "2024-03-10"
+  },
+  {
+    "id": "ux-design-principles",
+    "slug": "ux-design-principles",
+    "title": "5 UX Design Principles That Will Transform Your Products",
+    "excerpt": "Great design is invisible. Learn the fundamental UX principles that separate good products from great ones and how to apply them in your work.",
+    "content": "Good UX design can mean the difference between a product that users love and one they abandon. These five principles form the foundation of exceptional user experience design.\n\n## 1. Know Your User\n\nDesign starts with empathy. Before putting pen to paper (or cursor to screen), deeply understand your users — their goals, frustrations, mental models, and behaviors. Conduct user interviews, surveys, and usability tests. The more you know your users, the more accurately you can design for them.\n\n## 2. Clarity Over Cleverness\n\nUsers should never have to guess what something does. Every element in your interface should communicate its purpose clearly. Clever is memorable, but clear is usable. When in doubt, choose the obvious solution over the creative one.\n\n## 3. Consistency Creates Trust\n\nConsistency in design — visual patterns, interaction patterns, and terminology — reduces cognitive load and builds user confidence. When elements behave predictably, users feel in control.\n\n## 4. Feedback and Visibility\n\nUsers need to know what's happening. Whether it's a loading spinner, a success message, or an error state, always provide feedback. Keep users informed about system status and the result of their actions.\n\n## 5. Accessibility is Not Optional\n\nDesign for everyone from the start. Consider users with visual impairments, motor difficulties, and cognitive differences. Accessible design is good design — it benefits all users, not just those with disabilities.\n\n## Putting It All Together\n\nGreat UX isn't about following rules mechanically — it's about developing a deep understanding of human needs and crafting solutions that feel natural, effortless, and even delightful.",
+    "category": "Design",
+    "author": "Emma Rodriguez",
+    "authorImage": "/instructors/emma.jpg",
+    "thumbnail": "/blog/ux-principles.jpg",
+    "tags": ["UX Design", "Design Principles", "Product Design"],
+    "readTime": "5 min read",
+    "published": true,
+    "featured": false,
+    "createdAt": "2024-03-05",
+    "updatedAt": "2024-03-05"
+  }
+]
