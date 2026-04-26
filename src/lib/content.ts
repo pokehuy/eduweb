@@ -27,6 +27,11 @@ export interface HeroSlide {
   badge: string
 }
 
+export interface FAQ {
+  q: string
+  a: string
+}
+
 export interface SiteConfig {
   name: string
   tagline: string
@@ -36,11 +41,26 @@ export interface SiteConfig {
   email: string
   phone: string
   address: string
-  social: { twitter: string; linkedin: string; youtube: string; facebook: string }
+  mapLink: string
+  social: { twitter: string; linkedin: string; youtube: string; facebook: string; instagram: string }
   hero: { headline: string; subheadline: string; ctaPrimary: string; ctaSecondary: string; image: string }
   heroSlides: HeroSlide[]
   stats: Array<{ label: string; value: string }>
   features: Array<{ icon: string; title: string; description: string }>
+  germanFAQs: FAQ[]
+  aboutSection: {
+    heroTitle: string
+    story: { title: string; p1: string; p2: string; p3: string }
+    values: Array<{ icon: string; title: string; description: string }>
+    teamTitle: string
+    contactTitle: string
+    contactDesc: string
+  }
+  footer: {
+    copyrightName: string
+    privacyLink: string
+    termsLink: string
+  }
   seo: {
     defaultTitle: string
     titleTemplate: string

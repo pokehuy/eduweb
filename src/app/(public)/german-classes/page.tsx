@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getPublishedGermanClasses } from '@/lib/content'
+import { getPublishedGermanClasses, getSiteConfig } from '@/lib/content'
 import { getDict } from '@/i18n'
 
 export const metadata = {
@@ -8,11 +8,14 @@ export const metadata = {
 }
 
 export default async function GermanClassesPage() {
-  const [classes, dict] = await Promise.all([
+  const [classes, dict, site] = await Promise.all([
     Promise.resolve(getPublishedGermanClasses()),
     getDict(),
+    Promise.resolve(getSiteConfig()),
   ])
   const d = dict.germanClasses
+  // FAQs come from CMS (site.json), fall back to i18n if empty
+  const faqs = (site.germanFAQs?.length ?? 0) > 0 ? site.germanFAQs : d.faqs
 
   return (
     <>
@@ -151,7 +154,7 @@ export default async function GermanClassesPage() {
           <h2 className="section-title text-center mb-2">{d.faqTitle}</h2>
           <p className="section-subtitle text-center mx-auto mb-10">{d.faqDesc}</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            {d.faqs.map(item => (
+            {faqs.map(item => (
               <div key={item.q} className="bg-white border border-slate-200 rounded-xl p-5">
                 <h3 className="font-bold text-slate-900 mb-2">{item.q}</h3>
                 <p className="text-slate-500 text-sm leading-relaxed">{item.a}</p>

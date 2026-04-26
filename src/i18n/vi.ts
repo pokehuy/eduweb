@@ -3,7 +3,7 @@ import type { Dict } from './en'
 export const vi: Dict = {
   nav: {
     courses: 'Khóa học',
-    germanClasses: '🇩🇪 Tiếng Đức',
+    germanClasses: 'Tiếng Đức',
     blog: 'Blog',
     about: 'Giới thiệu',
     getStarted: 'Bắt đầu ngay',

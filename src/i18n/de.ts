@@ -3,7 +3,7 @@ import type { Dict } from './en'
 export const de: Dict = {
   nav: {
     courses: 'Kurse',
-    germanClasses: '🇩🇪 Deutschkurse',
+    germanClasses: 'Deutschkurse',
     blog: 'Blog',
     about: 'Über uns',
     getStarted: 'Jetzt starten',

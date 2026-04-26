@@ -1,7 +1,7 @@
 export const en = {
   nav: {
     courses: 'Courses',
-    germanClasses: '🇩🇪 Deutsch',
+    germanClasses: 'German Classes',
     blog: 'Blog',
     about: 'About',
     getStarted: 'Get Started',
