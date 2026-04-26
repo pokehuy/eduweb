@@ -1,0 +1,135 @@
+[
+  {
+    "id": "german-a1-beginner",
+    "slug": "german-a1-beginner",
+    "title": "Deutsch A1 — Absolute Beginner",
+    "level": "A1",
+    "description": "Start your German journey from zero. This course covers the alphabet, basic greetings, numbers, colors, everyday vocabulary, and simple sentence construction. Ideal for those who have never studied German before.",
+    "shortDescription": "Master German fundamentals: greetings, numbers, basic grammar, and everyday phrases — no prior knowledge needed.",
+    "schedule": "Monday & Wednesday, 18:00–19:30",
+    "startDate": "2026-05-05",
+    "endDate": "2026-06-25",
+    "duration": "8 weeks",
+    "sessions": 16,
+    "sessionLength": "90 minutes",
+    "location": "Online (Zoom)",
+    "maxStudents": 12,
+    "currentStudents": 7,
+    "price": 199,
+    "currency": "EUR",
+    "instructor": "Anna Müller",
+    "instructorBio": "Anna is a certified German language teacher (DaF) with 10 years of experience teaching students from beginners to advanced levels. She holds a Master's degree in German Linguistics from Humboldt University Berlin.",
+    "whatYouLearn": [
+      "Introduce yourself and others in German",
+      "Count, tell the time, and use dates",
+      "Describe your family, home, and daily routine",
+      "Order food and drinks at a restaurant",
+      "Use basic German grammar (nominative & accusative case)",
+      "Understand and produce simple texts"
+    ],
+    "requirements": [
+      "No prior German knowledge required",
+      "Stable internet connection for online sessions",
+      "Notebook and pen for in-class exercises"
+    ],
+    "materials": [
+      "Course workbook (included in price)",
+      "Access to online learning platform",
+      "Weekly vocabulary lists",
+      "Audio practice files"
+    ],
+    "tags": ["A1", "Beginner", "Grammar", "Speaking", "Online"],
+    "featured": true,
+    "published": true,
+    "createdAt": "2026-04-01",
+    "updatedAt": "2026-04-01"
+  },
+  {
+    "id": "german-a2-elementary",
+    "slug": "german-a2-elementary",
+    "title": "Deutsch A2 — Elementary",
+    "level": "A2",
+    "description": "Build on your A1 foundation. This course expands your vocabulary, introduces past tense (Perfekt), dative case, modal verbs, and conversational skills for everyday situations like shopping, travel, and work.",
+    "shortDescription": "Expand beyond basics: past tense, dative case, modal verbs, and real-life conversations.",
+    "schedule": "Tuesday & Thursday, 18:00–19:30",
+    "startDate": "2026-05-06",
+    "endDate": "2026-06-26",
+    "duration": "8 weeks",
+    "sessions": 16,
+    "sessionLength": "90 minutes",
+    "location": "Online (Zoom)",
+    "maxStudents": 12,
+    "currentStudents": 9,
+    "price": 219,
+    "currency": "EUR",
+    "instructor": "Anna Müller",
+    "instructorBio": "Anna is a certified German language teacher (DaF) with 10 years of experience teaching students from beginners to advanced levels.",
+    "whatYouLearn": [
+      "Talk about past events using Perfekt tense",
+      "Use modal verbs (können, müssen, wollen, dürfen)",
+      "Navigate shopping, travel, and appointments in German",
+      "Understand the dative case and prepositions",
+      "Write short emails and messages",
+      "Hold basic conversations on familiar topics"
+    ],
+    "requirements": [
+      "Completed A1 course or equivalent knowledge",
+      "Stable internet connection for online sessions"
+    ],
+    "materials": [
+      "Course workbook (included in price)",
+      "Access to online learning platform",
+      "Grammar reference guide",
+      "Audio practice files"
+    ],
+    "tags": ["A2", "Elementary", "Grammar", "Speaking", "Online"],
+    "featured": true,
+    "published": true,
+    "createdAt": "2026-04-01",
+    "updatedAt": "2026-04-01"
+  },
+  {
+    "id": "german-b1-intermediate",
+    "slug": "german-b1-intermediate",
+    "title": "Deutsch B1 — Intermediate",
+    "level": "B1",
+    "description": "Reach conversational independence. The B1 course covers the Konjunktiv II, genitive case, complex sentence structures, and prepares you for the Goethe-Institut B1 certificate exam. Topics include work, media, society, and travel.",
+    "shortDescription": "Achieve conversational independence and prepare for the Goethe B1 certificate.",
+    "schedule": "Saturday, 10:00–13:00",
+    "startDate": "2026-05-09",
+    "endDate": "2026-07-18",
+    "duration": "10 weeks",
+    "sessions": 10,
+    "sessionLength": "3 hours",
+    "location": "Room 204, Language Center",
+    "maxStudents": 10,
+    "currentStudents": 4,
+    "price": 279,
+    "currency": "EUR",
+    "instructor": "Thomas Becker",
+    "instructorBio": "Thomas is a professional German trainer with 15 years of experience. He specialises in exam preparation and business German, and has helped hundreds of students achieve their Goethe-Institut certificates.",
+    "whatYouLearn": [
+      "Express wishes, hypotheticals and politeness with Konjunktiv II",
+      "Understand and produce complex texts on various topics",
+      "Use relative clauses and subordinate conjunctions",
+      "Discuss current events, work, and social issues",
+      "Prepare for and pass the Goethe B1 certificate",
+      "Write formal letters and structured arguments"
+    ],
+    "requirements": [
+      "Solid A2 knowledge or completion of A2 course",
+      "Motivation to study independently between sessions"
+    ],
+    "materials": [
+      "Course workbook and exam practice book (included)",
+      "Access to digital resource library",
+      "Mock exam papers",
+      "Audio and video listening exercises"
+    ],
+    "tags": ["B1", "Intermediate", "Exam Prep", "Goethe", "In-Person"],
+    "featured": false,
+    "published": true,
+    "createdAt": "2026-04-01",
+    "updatedAt": "2026-04-01"
+  }
+]

@@ -20,6 +20,41 @@
     "ctaSecondary": "Watch Demo",
     "image": "/hero-image.jpg"
   },
+  "heroSlides": [
+    {
+      "id": "slide-1",
+      "headline": "Learn Without Limits",
+      "subheadline": "Access 500+ expert-led courses in tech, business, design & more. Join 50,000+ learners transforming their careers.",
+      "ctaPrimary": "Explore Courses",
+      "ctaPrimaryHref": "/courses",
+      "ctaSecondary": "Learn More",
+      "ctaSecondaryHref": "/about",
+      "gradient": "from-indigo-600 via-violet-600 to-sky-500",
+      "badge": "🎓 500+ Courses Available"
+    },
+    {
+      "id": "slide-2",
+      "headline": "Speak German with Confidence",
+      "subheadline": "Join our structured German language classes from A1 to B2. Small groups, expert teachers, and proven methods.",
+      "ctaPrimary": "View German Classes",
+      "ctaPrimaryHref": "/german-classes",
+      "ctaSecondary": "Register Now",
+      "ctaSecondaryHref": "/german-classes",
+      "gradient": "from-emerald-600 via-teal-600 to-cyan-500",
+      "badge": "🇩🇪 German Language Classes"
+    },
+    {
+      "id": "slide-3",
+      "headline": "Certify Your Skills",
+      "subheadline": "Earn industry-recognised certificates that employers value. Build your portfolio and land your dream job.",
+      "ctaPrimary": "Browse Certificates",
+      "ctaPrimaryHref": "/courses",
+      "ctaSecondary": "Read Success Stories",
+      "ctaSecondaryHref": "/blog",
+      "gradient": "from-rose-600 via-pink-600 to-fuchsia-500",
+      "badge": "🏆 Industry-Recognised Certificates"
+    }
+  ],
   "stats": [
     { "label": "Active Students", "value": "50,000+" },
     { "label": "Expert Instructors", "value": "200+" },
