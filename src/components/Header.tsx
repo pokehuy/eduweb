@@ -10,6 +10,7 @@ export default function Header({ dict, locale }: { dict: Dict; locale: Locale })
 
   const navLinks = [
     { href: '/courses', label: dict.nav.courses },
+    { href: '/german-classes', label: '🇩🇪 Deutsch' },
     { href: '/blog', label: dict.nav.blog },
     { href: '/about', label: dict.nav.about },
   ]
