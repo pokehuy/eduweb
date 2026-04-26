@@ -1,9 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
 import { getSiteConfig } from '@/lib/content'
-import { getDict, getLocale } from '@/i18n'
+import { getLocale } from '@/i18n'
 
 export async function generateMetadata(): Promise<Metadata> {
   const site = getSiteConfig()
@@ -28,15 +26,12 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const [dict, locale] = await Promise.all([getDict(), getLocale()])
+  const locale = await getLocale()
   const localeMap = { en: 'en', vi: 'vi', de: 'de' }
-
   return (
     <html lang={localeMap[locale] ?? 'en'}>
       <body className="min-h-screen flex flex-col bg-white text-slate-900 antialiased">
-        <Header dict={dict} locale={locale} />
-        <main className="flex-1">{children}</main>
-        <Footer dict={dict} />
+        {children}
       </body>
     </html>
   )

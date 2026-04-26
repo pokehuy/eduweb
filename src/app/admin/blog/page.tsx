@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import AdminSidebar from '@/components/AdminSidebar'
+import ImageUpload from '@/components/ImageUpload'
 import type { BlogPost } from '@/lib/content'
 
 const EMPTY: Partial<BlogPost> = {
@@ -132,6 +133,24 @@ export default function AdminBlogPage() {
                   <input type="text" value={(editing.tags ?? []).join(', ')}
                     onChange={e => setEditing(p => ({ ...p, tags: e.target.value.split(',').map(t => t.trim()).filter(Boolean) }))}
                     className={inputCls} />
+                </div>
+
+                <div className="sm:col-span-2">
+                  <ImageUpload
+                    label="Post Thumbnail"
+                    value={editing.thumbnail ?? ''}
+                    onChange={url => setEditing(p => ({ ...p, thumbnail: url }))}
+                    hint="Recommended: 1200×630px · JPG or PNG · max 5 MB"
+                  />
+                </div>
+
+                <div className="sm:col-span-2">
+                  <ImageUpload
+                    label="Author Photo"
+                    value={editing.authorImage ?? ''}
+                    onChange={url => setEditing(p => ({ ...p, authorImage: url }))}
+                    hint="Recommended: 200×200px square · JPG or PNG · max 5 MB"
+                  />
                 </div>
 
                 <div className="sm:col-span-2 flex gap-6">

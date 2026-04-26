@@ -78,17 +78,15 @@ export default async function HomePage() {
         <div className="page-container">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1">
-              <span className="inline-block bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">🇩🇪 New</span>
-              <h2 className="text-3xl font-extrabold text-slate-900 mb-4">Learn German with Expert Teachers</h2>
-              <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                Structured German language classes from A1 to B2. Small groups, certified DaF teachers, and proven curricula. Online and in-person options available.
-              </p>
+              <span className="inline-block bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">{dict.germanClasses.homeBadge}</span>
+              <h2 className="text-3xl font-extrabold text-slate-900 mb-4">{dict.germanClasses.homeTitle}</h2>
+              <p className="text-slate-600 text-lg leading-relaxed mb-6">{dict.germanClasses.homeDesc}</p>
               <div className="grid grid-cols-2 gap-3 mb-8 text-sm">
                 {[
-                  { icon: '👨‍🏫', text: 'Max 12 students per class' },
-                  { icon: '🎓', text: 'Certified DaF instructors' },
-                  { icon: '📜', text: 'Goethe exam preparation' },
-                  { icon: '🌐', text: 'Online & in-person' },
+                  { icon: '👨‍🏫', text: dict.germanClasses.homeFeature1 },
+                  { icon: '🎓', text: dict.germanClasses.homeFeature2 },
+                  { icon: '📜', text: dict.germanClasses.homeFeature3 },
+                  { icon: '🌐', text: dict.germanClasses.homeFeature4 },
                 ].map(f => (
                   <div key={f.text} className="flex items-center gap-2 text-slate-700">
                     <span>{f.icon}</span> {f.text}
@@ -96,14 +94,14 @@ export default async function HomePage() {
                 ))}
               </div>
               <Link href="/german-classes" className="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-8 py-3.5 rounded-xl hover:bg-emerald-700 transition-colors text-base no-underline">
-                View German Classes →
+                {dict.germanClasses.homeBtn}
               </Link>
             </div>
             <div className="flex-1 grid grid-cols-1 gap-4 max-w-sm w-full">
-              {['A1 — Absolute Beginner', 'A2 — Elementary', 'B1 — Intermediate'].map((level, i) => (
+              {(['A1', 'A2', 'B1'] as const).map((level, i) => (
                 <div key={level} className="bg-white rounded-xl border border-emerald-200 px-5 py-4 flex items-center gap-4 shadow-sm">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center font-extrabold text-sm text-white ${i === 0 ? 'bg-emerald-500' : i === 1 ? 'bg-teal-500' : 'bg-cyan-500'}`}>
-                    {level.split(' ')[0]}
+                    {level}
                   </div>
                   <span className="font-semibold text-slate-900 text-sm">{level}</span>
                 </div>

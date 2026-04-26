@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import AdminSidebar from '@/components/AdminSidebar'
+import ImageUpload from '@/components/ImageUpload'
 import type { Course } from '@/lib/content'
 
 const EMPTY: Partial<Course> = {
@@ -143,6 +144,24 @@ export default function AdminCoursesPage() {
                   <input type="text" value={(editing.tags ?? []).join(', ')}
                     onChange={e => setEditing(p => ({ ...p, tags: e.target.value.split(',').map(t => t.trim()).filter(Boolean) }))}
                     className={inputCls} />
+                </div>
+
+                <div className="sm:col-span-2">
+                  <ImageUpload
+                    label="Course Thumbnail"
+                    value={editing.thumbnail ?? ''}
+                    onChange={url => setEditing(p => ({ ...p, thumbnail: url }))}
+                    hint="Recommended: 800×450px · JPG or PNG · max 5 MB"
+                  />
+                </div>
+
+                <div className="sm:col-span-2">
+                  <ImageUpload
+                    label="Instructor Photo"
+                    value={editing.instructorImage ?? ''}
+                    onChange={url => setEditing(p => ({ ...p, instructorImage: url }))}
+                    hint="Recommended: 200×200px square · JPG or PNG · max 5 MB"
+                  />
                 </div>
 
                 <div className="sm:col-span-2 flex gap-6">

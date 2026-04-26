@@ -7,11 +7,13 @@
   "email": "hello@edulearn.example.com",
   "phone": "+1 (555) 123-4567",
   "address": "123 Learning Lane, San Francisco, CA 94105",
+  "mapLink": "",
   "social": {
     "twitter": "https://twitter.com/edulearn",
     "linkedin": "https://linkedin.com/company/edulearn",
     "youtube": "https://youtube.com/@edulearn",
-    "facebook": "https://facebook.com/edulearn"
+    "facebook": "https://facebook.com/edulearn",
+    "instagram": ""
   },
   "hero": {
     "headline": "Learn Without Limits",
@@ -30,7 +32,7 @@
       "ctaSecondary": "Learn More",
       "ctaSecondaryHref": "/about",
       "gradient": "from-indigo-600 via-violet-600 to-sky-500",
-      "badge": "🎓 500+ Courses Available"
+      "badge": "500+ Courses Available"
     },
     {
       "id": "slide-2",
@@ -41,7 +43,7 @@
       "ctaSecondary": "Register Now",
       "ctaSecondaryHref": "/german-classes",
       "gradient": "from-emerald-600 via-teal-600 to-cyan-500",
-      "badge": "🇩🇪 German Language Classes"
+      "badge": "German Language Classes"
     },
     {
       "id": "slide-3",
@@ -52,7 +54,7 @@
       "ctaSecondary": "Read Success Stories",
       "ctaSecondaryHref": "/blog",
       "gradient": "from-rose-600 via-pink-600 to-fuchsia-500",
-      "badge": "🏆 Industry-Recognised Certificates"
+      "badge": "Industry-Recognised Certificates"
     }
   ],
   "stats": [
@@ -62,27 +64,42 @@
     { "label": "Completion Rate", "value": "94%" }
   ],
   "features": [
-    {
-      "icon": "video",
-      "title": "HD Video Lessons",
-      "description": "Crystal-clear video content from world-class instructors at your own pace."
-    },
-    {
-      "icon": "certificate",
-      "title": "Industry Certificates",
-      "description": "Earn recognized certificates that boost your resume and career prospects."
-    },
-    {
-      "icon": "community",
-      "title": "Vibrant Community",
-      "description": "Connect with peers and mentors in a collaborative learning environment."
-    },
-    {
-      "icon": "lifetime",
-      "title": "Lifetime Access",
-      "description": "Buy once, learn forever. All courses come with lifetime access and updates."
-    }
+    { "icon": "video", "title": "HD Video Lessons", "description": "Crystal-clear video content from world-class instructors at your own pace." },
+    { "icon": "certificate", "title": "Industry Certificates", "description": "Earn recognized certificates that boost your resume and career prospects." },
+    { "icon": "community", "title": "Vibrant Community", "description": "Connect with peers and mentors in a collaborative learning environment." },
+    { "icon": "lifetime", "title": "Lifetime Access", "description": "Buy once, learn forever. All courses come with lifetime access and updates." }
   ],
+  "germanFAQs": [
+    { "q": "How do I register?", "a": "Click \"View & Register\" on any class, fill in the registration form, and you will receive a confirmation email within 24 hours." },
+    { "q": "What is the class size?", "a": "We keep classes small — maximum 12 students — to ensure each student gets personal attention and speaking practice." },
+    { "q": "Is online the same quality as in-person?", "a": "Yes. Our online classes use Zoom with breakout rooms for pair work, digital whiteboards, and the same curriculum as in-person sessions." },
+    { "q": "Can I switch levels?", "a": "Yes. If you find the level too easy or too difficult after the first session, we will help you move to the right class free of charge." },
+    { "q": "What materials are included?", "a": "All course materials — workbooks, audio files, and digital resources — are included in the course price." },
+    { "q": "Do you prepare students for Goethe exams?", "a": "Our B1 and above courses specifically prepare students for Goethe-Institut certificate exams with mock tests and exam strategies." }
+  ],
+  "aboutSection": {
+    "heroTitle": "Our Mission: Education for Everyone",
+    "story": {
+      "title": "Our Story",
+      "p1": "EduLearn was founded in 2020 with a simple but powerful belief: that access to quality education shouldn't be limited by geography, socioeconomic status, or time.",
+      "p2": "Starting with just 10 courses and a handful of dedicated instructors, we've grown into a thriving community of 50,000+ learners and 200+ world-class educators.",
+      "p3": "Today, EduLearn students have landed jobs at top companies, launched successful businesses, and transformed their careers. That's what drives us every day."
+    },
+    "values": [
+      { "icon": "🌍", "title": "Accessibility", "description": "Education should be available to everyone, everywhere." },
+      { "icon": "⭐", "title": "Excellence", "description": "We hold ourselves to the highest standards in content quality." },
+      { "icon": "🤝", "title": "Community", "description": "Learning is better together. We foster connection and collaboration." },
+      { "icon": "💡", "title": "Innovation", "description": "We embrace new technologies to make learning more effective." }
+    ],
+    "teamTitle": "Meet the Team",
+    "contactTitle": "Get in Touch",
+    "contactDesc": "Have questions? We'd love to hear from you."
+  },
+  "footer": {
+    "copyrightName": "EduLearn",
+    "privacyLink": "/privacy",
+    "termsLink": "/terms"
+  },
   "seo": {
     "defaultTitle": "EduLearn — Online Education Platform",
     "titleTemplate": "%s | EduLearn",
