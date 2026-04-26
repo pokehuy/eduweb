@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import AdminSidebar from '@/components/AdminSidebar'
+import ImageUpload from '@/components/ImageUpload'
 import type { SiteConfig, HeroSlide, FAQ } from '@/lib/content'
 
 const SLIDE_GRADIENTS = [
@@ -254,8 +255,14 @@ export default function AdminSettingsPage() {
                     <input type="text" value={config.tagline} onChange={e => update('tagline', e.target.value)} className={inp} /></div>
                   <div className="sm:col-span-2"><label className={lbl}>Description</label>
                     <textarea value={config.description} onChange={e => update('description', e.target.value)} rows={3} className={`${inp} resize-y`} /></div>
-                  <div><label className={lbl}>Logo Path</label>
-                    <input type="text" value={config.logo} onChange={e => update('logo', e.target.value)} className={inp} placeholder="/logo.png" /></div>
+                  <div className="sm:col-span-2">
+                    <ImageUpload
+                      label="Site Logo"
+                      value={config.logo}
+                      onChange={url => update('logo', url)}
+                      hint="Recommended: SVG or PNG with transparent background · max 5 MB"
+                    />
+                  </div>
                 </div>
               </div>
             )}
@@ -510,11 +517,16 @@ export default function AdminSettingsPage() {
                     { label: 'Default Title', path: 'seo.defaultTitle', value: config.seo.defaultTitle },
                     { label: 'Title Template  (%s = page title)', path: 'seo.titleTemplate', value: config.seo.titleTemplate },
                     { label: 'Twitter Handle', path: 'seo.twitterHandle', value: config.seo.twitterHandle },
-                    { label: 'OG Image Path', path: 'seo.ogImage', value: config.seo.ogImage },
-                  ].map(f => (
+                    ].map(f => (
                     <div key={f.path}><label className={lbl}>{f.label}</label>
                       <input type="text" value={f.value} onChange={e => update(f.path, e.target.value)} className={inp} /></div>
                   ))}
+                  <ImageUpload
+                    label="OG / Social Share Image"
+                    value={config.seo.ogImage}
+                    onChange={url => update('seo.ogImage', url)}
+                    hint="Recommended: 1200×630px · JPG or PNG · max 5 MB"
+                  />
                   <div><label className={lbl}>Default Meta Description</label>
                     <textarea value={config.seo.defaultDescription} onChange={e => update('seo.defaultDescription', e.target.value)} rows={3} className={`${inp} resize-y`} /></div>
                   <div><label className={lbl}>Keywords (comma-separated)</label>

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import AdminSidebar from '@/components/AdminSidebar'
+import ImageUpload from '@/components/ImageUpload'
 import type { GermanClass, Registration } from '@/lib/content'
 
 const EMPTY: Partial<GermanClass> = {
@@ -189,6 +190,14 @@ export default function AdminGermanClassesPage() {
                 <div>
                   <label className={labelCls}>Instructor</label>
                   <input type="text" value={editing.instructor ?? ''} onChange={e => setEditing(p => ({ ...p, instructor: e.target.value }))} className={inputCls} />
+                </div>
+                <div className="sm:col-span-2">
+                  <ImageUpload
+                    label="Instructor Photo"
+                    value={(editing as Record<string, unknown>).instructorImage as string ?? ''}
+                    onChange={url => setEditing(p => ({ ...p, instructorImage: url }))}
+                    hint="Recommended: 200×200px square · JPG or PNG · max 5 MB"
+                  />
                 </div>
                 <div className="sm:col-span-2">
                   <label className={labelCls}>Short Description</label>
